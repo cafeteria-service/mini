@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <title>Orderista</title>
+        <link rel="stylesheet" type="text/css" href="home.css">
+        <link rel="stylesheet" type="text/css" href="design.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    </head>
+    <body class="bg">
+        <header>
+            <nav>
+                <div class="row1 clearfix">
+                    <img src="logo.jpeg" class="logo">
+                    <ul class="main-nav animated slideInDown " id="check-class">
+                        <li><a href="signup.html" ><span class="glyphicon glyphicon-user"></span>SignUp</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-cog"></span>Settings</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-question-sign"></span>Help</a></li>
+                    </ul>
+                    <a href="#" class="mobile-icon"  onclick="slideshow()"><i class="fa fa-bars"></i></a>
+                </div>
+            </nav>
+
+
+            <div class="container-fluid bg">
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 col-xs-12"></div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+            
+            <form class="form-container" action="connect1.php" method="POST">
+                <div class="form-group">
+                  <label for="exampleInputEmail1" name="email">Email</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <small id="emailHelp" class="form-text text" >We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1" name="password">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="form-group form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Remember me</label>
+                </div>
+                <button type="submit" class="btn btn-success btn-block">Submit</button>
+              </form>
+              </div>
+              <div class="col-md-4 col-sm-4 col-xs-12">
+              </div>
+              </div>
+              </div>
+    
+        </header>
+
+        <script type="text/javascript">
+              function slideshow()
+              {
+                  var x=document.getElementById('check-class');
+                  if(x.style.display==="none"){
+                      x.style.display="block";
+                  }
+                  else{
+                      x.style.display="none";
+                  }
+              }
+              
+        </script>
+        
+    </body>
+
+</html>
