@@ -1,0 +1,14 @@
+.banner-image{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+   
+   
+    background-image: url(download.jpg);
+    background-size:10%;
+    background-repeat: no-repeat;
+    background-position:left;
+    width:20%;
+    height:100vh;
+   
+}
